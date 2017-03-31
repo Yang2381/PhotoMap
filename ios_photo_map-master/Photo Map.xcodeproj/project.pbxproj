@@ -17,6 +17,7 @@
 		228D477019F5DAFF00DE9903 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228D476F19F5DAFF00DE9903 /* LocationsViewController.swift */; };
 		22BB9BD519F5DD21000048C2 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BB9BD419F5DD21000048C2 /* LocationCell.swift */; };
 		27B4C77D5F6FB9F593E5B492 /* Pods_Photo_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1656EACBB7DBDA3168C87E /* Pods_Photo_Map.framework */; };
+		EB22A32E1E8DC2080020F579 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB22A32D1E8DC2080020F579 /* MapKit.framework */; };
 		FF2DA97B62A09AE396F7D733 /* Pods_Photo_MapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C46F942DEA871A3D194D6E /* Pods_Photo_MapTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		5FBF275F10E269E7745EB0A8 /* Pods-Photo MapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo MapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photo MapTests/Pods-Photo MapTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C028AAE500A24C63B952C94 /* Pods-Photo Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photo Map/Pods-Photo Map.debug.xcconfig"; sourceTree = "<group>"; };
 		8E1656EACBB7DBDA3168C87E /* Pods_Photo_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB22A32D1E8DC2080020F579 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB22A32E1E8DC2080020F579 /* MapKit.framework in Frameworks */,
 				27B4C77D5F6FB9F593E5B492 /* Pods_Photo_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,6 +169,7 @@
 		C53175EB32E8EEC8585BFFB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB22A32D1E8DC2080020F579 /* MapKit.framework */,
 				12B190D8026AA9DA033871B1 /* Pods.framework */,
 				8E1656EACBB7DBDA3168C87E /* Pods_Photo_Map.framework */,
 				36C46F942DEA871A3D194D6E /* Pods_Photo_MapTests.framework */,
